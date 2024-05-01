@@ -8,7 +8,12 @@ CREATE TABLE board
     ID       INT PRIMARY KEY AUTO_INCREMENT,
     title    VARCHAR(200)  NOT NULL,
     content  VARCHAR(3000) NOT NULL,
-    wirter   VARCHAR(100)  NOT NULL,
+    writer   VARCHAR(100)  NOT NULL,
     inserted DATETIME DEFAULT NOW()
+
 );
+
+SELECT *
+FROM board;
+
 

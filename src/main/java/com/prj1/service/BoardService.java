@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-@Transactional(rollbackFor = Exception.class)
+@Transactional(rollbackFor = Exception.class)  
 public class BoardService {
 
     private final BoardMapper mapper;
